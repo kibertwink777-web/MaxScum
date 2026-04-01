@@ -7,6 +7,7 @@ app.use(express.static('Kakashaka'))
 app.use(express.json())
 
 app.get('/', (req, res) => {
+  console.log('+1 user')
   res.sendFile(__dirname + '/Kakashaka/Max.html')
 })
 
