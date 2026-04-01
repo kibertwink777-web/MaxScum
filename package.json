@@ -1,0 +1,12 @@
+{
+  "name": "max-scum",
+  "version": "1.0.0",
+  "main": "MaxS.js",
+  "scripts": {
+    "start": "node MaxS.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
+
