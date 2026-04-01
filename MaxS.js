@@ -11,11 +11,15 @@ app.get('/', (req, res) => {
 })
 
 app.post('/number', (req,res) => {
+  console.log('number:')
   console.log(req.body)
+  res.send('ok')
 })
 
 app.post('/code', (req, res) => {
+  console.log('code:')
   console.log(req.body)
+  res.send('ok')
 })
 
 const PORT = process.env.PORT || 3000
